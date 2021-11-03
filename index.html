@@ -58,7 +58,39 @@
                         </svg>
                     </button>
                     <form class="form">
-                        
+                        <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
+                        <div class="modal-form">
+                            <label class="form-label" for="ucername">Имя</label>
+                            <input class="form-input" type="text" name="name" id="username">
+                            <svg class="modal-icon">
+                                <use href="./images/icons.svg#icon-person"></use>
+                            </svg>
+                        </div>
+                        <div class="modal-form">
+                            <label class="form-label" for="tel">Телефон</label>
+                            <input class="form-input" type="tel" name="tel" id="tel">
+                            <svg class="modal-icon">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                        <div class="modal-form">
+                            <label class="form-label" for="email">Почта</label>
+                            <input class="form-input" type="email" name="email" id="emeil">
+                            <svg class="modal-icon">
+                                <use href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                        <div class="modal-form">
+                            <label class="form-label" for="comment">Комментарий</label>
+                            <textarea class="form-comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                            
+                        </div>
+                        <label class="modal-checkbox">
+                            <input class="checkbox-input" type="checkbox" name="checkbox" value="checkbox">Соглашаюсь с рассылкой и принимаю
+                            <span class="checkbox-icon"></span>
+                            <a class="checkbox-link" href="">Условия договора</a>
+                        </label>
+
 
                         <button class="form-button" type="submit">Отправить</button>
                     </form>
