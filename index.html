@@ -58,9 +58,9 @@
                         </svg>
                     </button>
                     <form class="form">
-                        <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
+                        <b class="modal-form-title">Оставьте свои данные, мы вам перезвоним</b>
                         <div class="modal-form">
-                            <label class="form-label" for="ucername">Имя</label>
+                            <label class="form-label" for="username">Имя</label>
                             <input class="form-input" type="text" name="name" id="username">
                             <svg class="modal-icon">
                                 <use href="./images/icons.svg#icon-person"></use>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="modal-form">
                             <label class="form-label" for="email">Почта</label>
-                            <input class="form-input" type="email" name="email" id="emeil">
+                            <input class="form-input" type="email" name="email" id="email">
                             <svg class="modal-icon">
                                 <use href="./images/icons.svg#icon-email"></use>
                             </svg>
@@ -451,19 +451,20 @@
                 
             </div>
             <div class="footer-mailing">
-                <h3 class="footer-mailin-title">Подпишитесь на рассылку</h3>
+                <b class="footer-mailin-accent">Подпишитесь на рассылку</b>
+                <!-- <h3 class="footer-mailin-title">Подпишитесь на рассылку</h3> -->
                 <form class="footer-form">
                     <div class="footer-form-subscription">
-                        <label class="footer-form-label" for="footer-email"></label>
-                        <input class="footer-form-input" type="email" name="footer-email" id="footer-email" placeholder="E-mail">
+                        <label class="footer-form-label">
+                            <input class="footer-form-input" type="email" name="footer-email" placeholder="E-mail">
+                        </label>
+                        
                         <button class="footer-button" type="submit">Подписаться
                             <svg class="footer-form-icon">
                                 <use href="./images/icons.svg#icon-send"></use>
                             </svg>
                         </button>
                     </div>
-                    
-                    
                 </form>
 
             </div>
